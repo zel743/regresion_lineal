@@ -6,6 +6,7 @@ from sklearn.metrics import r2_score
 from sklearn.linear_model import LinearRegression
 
 st.title("Predicion con regresion lineal simple")
+st.subheader("By Oziel Velazquez ITC")
 st.subheader("cargar datos")
 uploaded_file = st.file_uploader("Sube un archivo CSV con tus datos", type=["csv"])
 if uploaded_file is not None:
