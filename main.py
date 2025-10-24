@@ -56,6 +56,6 @@ if uploaded_file is not None:
     n = st.number_input(f'ingresa el valor de la varibale dependiente {x}: ', value=0)
 
     peso_d = theta[0] + (theta[1] * n)
-    st.write(f"prediccion aproximado de {y}:  {peso_d}")
+    st.write(f"prediccion aproximado de {y}:  {peso_d:.2f}")
 else:
     st.info("Sube un archivo CSV para continuar.")
